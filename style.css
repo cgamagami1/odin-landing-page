@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a.hero-secondary-text {
+    text-decoration: none;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 1em;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li {
+    margin: 1em;
+}
+
+.hero {
+    padding: 8em;
+}
+
+.hero .left-col {
+    display: inline-block;
+}
+
+.hero img {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
