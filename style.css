@@ -41,15 +41,103 @@ header {
 }
 
 .hero {
-    padding: 8em;
+    padding: 8em 13em;
+}
+
+.hero .container {
+    display: flex;
 }
 
 .hero .left-col {
-    display: inline-block;
+    padding: 1em;
 }
 
 .hero img {
     height: 300px;
-    width: 300px;
+    width: 600px;
+    display: inline-block;
+}
+
+.sign-up-btn {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 5px;
+    padding: 0.25em 1.5em;
+}
+
+.sign-up-btn:hover {
+    cursor: pointer;
+}
+
+/* "Random Information" */
+
+.section-1 h1 {
+    text-align: center;
+}
+
+.info-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0em 25em 5em 25em;
+    padding: 0;
+}
+
+.info-list li
+{
+    padding: 1em;
+}
+
+.info-list img {
+    height: 200px;
+    width: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
+}
+
+/* Quote */
+
+.section-2 {
+    background-color: #E5E7EB;
+    padding: 5em 10em;
+}
+
+.section-2 p {
+    font: 36px light italic;
+    color: #1F2937;
+}
+
+/* Call to action */
+
+.section-3 {
+    padding: 5em 10em;
+}
+
+.CTA {
+    background-color: #3882F6;
+    padding: 2em 5em;
+    border-radius: 7px;
+}
+
+.CTA .left-col {
+    display: inline-block;
+}
+
+.CTA-title {
+    margin: 0;
+    color: #F9FAF8;
+    font-size: 25px;
+}
+
+.CTA-desc {
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.CTA-btn {
     display: inline-block;
 }
