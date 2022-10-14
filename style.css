@@ -140,4 +140,27 @@ header {
 
 .CTA-btn {
     display: inline-block;
+    background-color: #3882F6;
+    border-width: 2px;
+    border-color: #F9FAF8;
+    border-radius: 7px;
+    border-style: solid;
+    padding: 0.2em 2em;
+    color: #F9FAF8;
+    margin-left: 20em;
+    font-size: 30px;
+}
+
+.CTA-btn:hover {
+    cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1F2937;
+    padding: 1.5em 4em;
+    text-align: center;
+    color: #F9FAF8;
+    font-size: 20px;
 }
